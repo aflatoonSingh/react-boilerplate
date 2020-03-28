@@ -1,0 +1,17 @@
+{
+  "extends": ["react-app", "plugin:jsx-a11y/recommended", "plugin:prettier/recommended"],
+  "plugins": ["jsx-a11y", "prettier"],
+  "rules": {
+    "arrow-parens": "off",
+    "max-len": ["warn", { "code": "120" }],
+    "comma-dangle": "off",
+    "semi": "off",
+    "dot-notation": "off",
+    "import/order": [
+      "error",
+      {
+        "group": ["external", "internal", "parent", "sibling"]
+      }
+    ]
+  }
+}
